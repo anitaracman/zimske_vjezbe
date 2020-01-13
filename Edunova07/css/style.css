@@ -1,0 +1,147 @@
+table {
+
+    empty-cells: show;
+    border-collapse: separate !important;
+    border-spacing: 1px ;
+
+}
+
+td {
+    width:50px;
+    height: 50px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 3px;
+
+
+}
+tr:first-child td:first-child{
+
+    background-color:gray ;
+}
+
+.space{
+    margin-top: 50px;
+}
+
+body{
+    background-color: rgb(66, 67, 68) !important;
+    background:
+            -moz-radial-gradient(gray 3%, transparent 8%),
+            -moz-radial-gradient(gray 3%, transparent 8%),
+            rgba(0,0,0,0.7);
+    background:
+            -webkit-radial-gradient(gray 3%, transparent 8%),
+            -webkit-radial-gradient(gray 3%, transparent 8%),
+            rgba(0,0,0,0.7);
+
+    background-position: 0 0, 80px 80px;
+
+    -webkit-background-size:16px 16px;
+    -moz-background-size:16px 16px;
+    background-size:16px 16px;
+
+}
+.card-body{
+    color: white;
+    background-color: rgb(66, 67, 68);
+    border: 10px solid black;
+    border-top: 20px solid black;
+    border-radius: 5px;
+
+
+}
+.card{
+    background-color: black !important;
+
+}
+
+.input-css {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 70px;
+    height: 15px;
+    cursor: pointer;
+    bottom: 0;
+    margin: auto;
+    padding: 10px 20px;
+    border: 1px solid white;
+    -webkit-border-radius: 3px;
+    border-radius: 8px;
+    font: normal normal bold 16px/normal "Times New Roman", Times, serif;
+    color: rgba(255,255,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(105,109,109,1);
+    text-align: center;
+}
+
+.input-text{
+    transform: rotate(-90deg);
+    padding-top: 50px;
+    color: gray;
+    font-size:18px;
+
+}
+
+.output-text{
+    transform: rotate(-90deg);
+    padding-top: 50px;
+    color: gray;
+    font-size:18px;
+
+}
+
+
+
+.col-3{
+    float: left;
+    color: white;
+}
+.container{
+    margin-top: 50px !important;
+    margin-left: 10px !important;
+
+}
+.tekst{
+
+    font-size: 12px;
+}
+
+td.right::after {
+    content: '--';
+    color: green;
+    display: inline-block;
+    margin-left: 11px;
+    position: absolute;
+    font-weight: bolder;
+}
+
+td.left::after {
+    content: '--';
+    color: green;
+    display: inline-block;
+    position: absolute;
+    font-weight: bolder;
+    margin-left: -35px;
+}
+
+td.top::after {
+    content: '| ';
+    position: absolute;
+    font-weight: bolder;
+    color: green;
+    margin-left: -11px;
+    margin-top: -25px;
+}
+
+td.bottom::after {
+    content: '| ';
+    position: absolute;
+    font-weight: bolder;
+    color: green;
+    margin-left: -11px;
+    margin-top: 25px;
+}
